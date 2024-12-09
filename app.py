@@ -10,7 +10,7 @@ logging.basicConfig(level=logging.DEBUG)
 ai_name = "Flivo ai"
 
 # Configure API key
-test_string = st.secrets["test_string"] 
+test_string = st.secrets["AIzaSyDgc78PnoUQUau0m4QbAUJtYIv9BKNbHhU"] 
 genai.configure(api_key=test_string)
 
 # Initialize the model outside of the function
